@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../img/background_buildings.png");
+}
+
+.pagina{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:#ffffff;
+}
+
+header{
+    background-color:black;
+    color: #ffffff;
+}
+
+.encabezado{
+    display: flex;
+}
+
+.encabezado .imagen img{
+    float: left;
+    padding: 45%;
+}
+
+.uno{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 6%;   
+}
+
+
+.dos{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    width: 500px;   
+}
+.dos p{
+    text-align:justify ;
+}
+.dos h1{
+    font-size: 29px;
+}
+
+nav{
+    list-style:none ;
+    background: #d1913c;
+    background: -webkit-linear-gradient(to right, #FFD194,#D1913C);
+	background: linear-gradient(to right,hsl(34, 87%, 50%), #FFD194);
+	padding: 20px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 1px;
+}
+
+nav ul li a{
+    margin-left: 30px;
+    text-decoration: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    max-width: 500px;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contenido, .contenido2{
+    display: flex;
+}
+
+.contenido2 .main{
+    width: 1200%;
+}
+
+.main, aside{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    text-align:justify ;
+}
+
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+section p{
+    text-align: justify;
+}
+
+.artes{
+    border-bottom: 3px dotted #7f7b80;
+}
+.sch{
+    border-bottom: 3px solid black;
+}
+
+.art div{
+   border-bottom: 2px gray;
+}
+
+.art{
+    display: flex;
+}
+ 
+.art2{
+     display: flex;
+ }
+
+.siete{
+    display: flex;
+}
+
+.art div label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.art2 div label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.siete label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.registro label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.res{
+    text-align: center;
+}
+
+.siete h4{
+    color: gray;
+}
+
+.art img{
+    width: 110px;
+    padding: 5%;
+    border-radius: 20%;
+}
+
+.art2 img{
+    width: 110px;
+    padding: 5%;
+    border-radius: 20%;
+}
+
+.siete img{
+    width: 110px;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.art div{
+    border-bottom: 3px dotted #7f7b80;
+
+}
+
+.siete div{
+    max-width: 1000px;
+}
+
+table img{
+    width: 120px;
+}
+
+table{
+    padding: 10px;
+}
+
+.tablaA img{
+    border-radius: 20%;
+    
+    padding: 2%;
+    margin: 5%;
+}
+
+.venue img{
+    float: left;
+	margin-right: 20px;
+}
+
+.venue label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+section h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.rojo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(211, 30, 30);
+}
+
+aside h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+aside h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: gray;
+}
+
+.link{
+    text-align: right;
+}
+
+footer{
+    background-color:rgb(61, 61, 61);
+    color: white;
+}
+
+.piepagina{
+    display: flex;
+}
+
+.piepagina .img img{
+    float: left;
+    padding: 35%;
+    max-width: 150px;
+}
+
+.piePag{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    padding: 5%;
+    width: 300px;   
+}
+
+
+.piePag2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%; 
+}
+
+@media(min-width:0px) and (max-width:999px){
+    h1, a{
+        font-size: 10px;
+    }
+
+    body, header, footer, .contenido, .contenido2, .main{
+        width: auto;
+    }
+
+    header h4, h1, p{
+        font-size: 10px;
+    }
+    .encabezado .imagen img{
+        float: left;
+        padding: 10%;
+    }
+
+    .contenido, .contenido2{
+        display: block;
+    }
+
+    .main, aside{
+        width: auto;
+    }
+
+    nav{
+        width: 480px;
+    }
+    .portada img{
+        width: 480px;
+    }
+
+    .piepagina .img img{
+        float: left;
+        padding: 15%;
+        width: 90px;
+    }
+
+}
+
+@media (max-width:635px) {
+    .pagina{
+        padding: 0px;
+    }
+    .portada img{
+        width: 480px;
+    }
+    
+    h1,a{
+        font-size: 10px;
+    }
+
+    header{
+        height: auto;
+        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav{
+        display: block;
+        float: none;
+        height: auto;
+        width: auto;
+        padding: 8px;
+        
+    }
+    
+
+    nav, ul{
+        display: block;
+        
+    }
+
+
+    a{
+        display: block;
+        height: 30px;
+        list-style: 30px;
+        text-align: center;
+        
+    }
+
+}
