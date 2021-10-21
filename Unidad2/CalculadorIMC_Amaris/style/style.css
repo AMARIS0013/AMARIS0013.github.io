@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:gray;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+main h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+main div{
+    margin: 20px;
+}
+
+#contenido{
+    display: flex;
+}
+
+#contenido h3 {
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+#datos{
+    background-color: bisque;
+    border-radius: 10px;
+    height:310px;
+    width:350px;  
+}
+
+#resultados{
+    background-color: bisque;
+    border-radius: 10px;
+    height:250px;
+    width:460px; 
+}
+
+#resultados p{
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#imagenes{
+    margin-left: 100px;
+}
+
+#inDa label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+#inRe label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+#datos #peso, #altura{
+    height:30px; 
+    width:100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+#datos .boton{
+    display: inline;
+    height:50px; 
+    width:100px;  
+    position: relative;
+    left: 50px;
+    margin: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color:ghostwhite;
+    list-style: none;
+    bottom: 10px;
+    border-radius: 100px;
+    border-color: bisque;
+}
+#datos .boton:hover{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(236, 166, 126);
+}
+
+.bp{
+    background-color: yellow;
+}
+
+.nor{
+    background-color: green;
+}
+
+.sob{
+    background-color: orange;
+}
+
+.obs{
+    background-color: red;
+}
+
+#tipo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 50px;
+}

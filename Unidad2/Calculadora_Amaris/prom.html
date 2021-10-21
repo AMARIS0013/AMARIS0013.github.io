@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <main>
+        <a href="index.html" id="titulo"><h1>Calculadora</h1></a><br><br>
+        <div class="botones">
+            <a href="suma.html"><input id="suma" type="button" value="Suma"></a> &nbsp;
+            <a href="resta.html"><input id="resta" type="button" value="Resta"></a> &nbsp;
+            <a href="multi.html"><input id="multi" type="button" value="Multiplicación"></a> &nbsp;
+            <a href="div.html"><input id="div" type="button" value="Divición"></a> &nbsp;
+            <a href="prom.html"><input id="prom" type="button" value="Promedio"></a> &nbsp;            
+            <a href="dev.html"><input id="dev" type="button" value="Desviación Std."></a> &nbsp;
+        </div><br><br><br><br><br><br><br>
+
+        <div class="cuatro">
+            <label for="eva">Calificaciones a Evaluar:</label>
+    
+            <input type="number" id="eva" name="eva"
+           min="1" max="100"> <br><br><br>
+    
+        </div>
+    
+        <button onclick="prom();" id="continuar">Continuar</button>
+        <br><br><br><br><br>
+
+        <div id="calificaciones"></div><br><br><br>
+    
+        <div id="resultado"></div><br><br>
+
+    </main>
+    
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
